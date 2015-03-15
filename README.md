@@ -41,7 +41,7 @@ Change the homepage to have the title of your blog.
 
 - Pass a new `title` to the Jade file
 
-[view changes](https://github.com/LegitTalon/learn-to-express-crud/blob/63ae97e493d9c1dda72dce0f56dea0393c61206d/routes/index.js)
+[view code](https://github.com/LegitTalon/learn-to-express-crud/blob/63ae97e493d9c1dda72dce0f56dea0393c61206d/routes/index.js)
 
 # Step 3
 
@@ -98,4 +98,4 @@ A good nights REST
   </tbody>
 </table>
 
-[view code](https://github.com/LegitTalon/learn-to-express-crud/commit/7add86f9de6e5faed0a6f4dceef0dcd2a318d18c)
+[view code](https://github.com/LegitTalon/learn-to-express-crud/blob/7add86f9de6e5faed0a6f4dceef0dcd2a318d18c/routes/post.js)

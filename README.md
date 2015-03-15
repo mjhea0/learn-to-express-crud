@@ -40,3 +40,23 @@ npm install
 Change the homepage to have the title of your blog.
 
 - Pass a new `title` to the Jade file
+
+# Step 3
+
+Cool site but could use some content. Let's setup a database.
+
+Add mongoose as a dependency and save it to your `package.json`
+```shell
+npm install --save mongoose
+```
+
+- Tell mongoose to connect to the mongo database
+
+- create a new folder for your models
+
+```shell
+mkdir models
+```
+
+- create `models/post.js` using the Mongoose API
+

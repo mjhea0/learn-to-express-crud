@@ -41,6 +41,8 @@ Change the homepage to have the title of your blog.
 
 - Pass a new `title` to the Jade file
 
+[view changes](https://github.com/LegitTalon/learn-to-express-crud/blob/63ae97e493d9c1dda72dce0f56dea0393c61206d/routes/index.js)
+
 # Step 3
 
 Cool site but could use some content. Let's setup a database.
@@ -52,6 +54,8 @@ npm install --save mongoose
 
 - Tell mongoose to connect to the mongo database
 
+[view code](https://github.com/LegitTalon/learn-to-express-crud/blob/e093a04fb04b0740fddc4882d9df5b54d34a81f2/app.js#L11)
+
 - create a new folder for your models
 
 ```shell
@@ -59,6 +63,8 @@ mkdir models
 ```
 
 - create `models/post.js` using the Mongoose API
+
+[view code](https://github.com/LegitTalon/learn-to-express-crud/blob/e093a04fb04b0740fddc4882d9df5b54d34a81f2/models/post.js)
 
 # Step 4
 
@@ -91,3 +97,5 @@ A good nights REST
     </tr>
   </tbody>
 </table>
+
+[view code](https://github.com/LegitTalon/learn-to-express-crud/commit/7add86f9de6e5faed0a6f4dceef0dcd2a318d18c)

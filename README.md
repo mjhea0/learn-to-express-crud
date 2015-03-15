@@ -60,3 +60,34 @@ mkdir models
 
 - create `models/post.js` using the Mongoose API
 
+# Step 4
+
+A good nights REST
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th></th>
+      <th>GET</th>
+      <th>POST</th>
+      <th>PUT</th>
+      <th>DELETE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/posts/</code></td>
+      <td>Show all posts</td>
+      <td>Add new post</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><code>/posts/&lt;id&gt;</code></td>
+      <td>Show &lt;id&gt;</td>
+      <td>N/A</td>
+      <td>Update &lt;id&gt;</td>
+      <td>Delete &lt;id&gt;</td>
+    </tr>
+  </tbody>
+</table>

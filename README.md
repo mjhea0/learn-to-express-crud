@@ -36,3 +36,7 @@ npm install
 ```
 
 # Step 2
+
+Change the homepage to have the title of your blog.
+
+- Pass a new `title` to the Jade file

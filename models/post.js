@@ -4,8 +4,14 @@ var mongoose = require('mongoose')
  * Define what a post is
  */
 var Post = mongoose.Schema({
-  title: String,
-  body: String
+  title: {
+    type: String,
+    required: true
+  },
+  body: {
+    type: String,
+    required: true
+  },
 })
 
 /**

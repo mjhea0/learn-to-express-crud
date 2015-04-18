@@ -89,7 +89,7 @@ A good nights REST
       <td>N/A</td>
     </tr>
     <tr>
-      <td><code>/posts/&lt;id&gt;</code></td>
+      <td><code>/post/&lt;id&gt;</code></td>
       <td>Show &lt;id&gt;</td>
       <td>N/A</td>
       <td>Update &lt;id&gt;</td>
